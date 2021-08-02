@@ -1,0 +1,23 @@
+Construa um algoritimo que leia 4 notas e mostre a média.
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1, nota2, nota3, nota4, media
+
+		escreva("Digite sua 1° nota: ")
+		leia(nota1)
+		escreva("Digite sua 2° nota: ")
+		leia(nota2)
+		escreva("Digite sua 3° nota: ")
+		leia(nota3)
+		escreva("Digite sua £ nota: ")
+		leia(nota4)
+
+		media = (nota1 + nota2 + nota3 + nota4)/4
+		escreva("Sua media é:", media)
+	}
+}
