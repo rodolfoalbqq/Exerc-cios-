@@ -1,0 +1,19 @@
+Desenvolvi um codigo em PORTUGOL que rece dois valores numéricos inteiros que calcula e mostra a soma do quadrado desses dois números.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valor1, valor2, soma
+
+		escreva("digite o 1° valor: ")
+		leia(valor1)
+		escreva("digite o 2° valor: ")
+		leia(valor2)
+
+		soma = (valor1*valor1) + (valor2*valor2)
+
+		escreva("", soma)
+	}
+}
